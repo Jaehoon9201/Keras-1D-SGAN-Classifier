@@ -40,7 +40,6 @@ features = [ 'data11', 'data12', 'data13', 'data14', 'data15', 'data16']
 
 
 err_train = train_set.loc[:, features].values
-# err_train = StandardScaler().fit_transform(err_train)
 status_train = train_set.loc[:,['sort']]
 status_train = status_train.values.astype(np.int64)
 status_train = np.ravel(status_train)
@@ -48,7 +47,6 @@ status_train_cat = to_categorical(status_train)
 
 
 err_test = test_set.loc[:, features].values
-# err_test = StandardScaler().fit_transform(err_test)
 status_test = test_set.loc[:,['sort']]
 status_test = status_test.values.astype(np.int64)
 status_test = np.ravel(status_test)
