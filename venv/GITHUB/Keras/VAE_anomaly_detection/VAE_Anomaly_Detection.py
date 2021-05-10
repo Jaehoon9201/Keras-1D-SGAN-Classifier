@@ -1,8 +1,7 @@
 
 # ref1 : https://keras.io/getting_started/intro_to_keras_for_researchers/
-# ref2 : https://www.linkedin.com/pulse/multi-task-supervised-unsupervised-learning-code-ibrahim-sobh-phd/
-# ref3 : https://www.linkedin.com/pulse/supervised-variational-autoencoder-code-included-ibrahim-sobh-phd
-#
+# ref2 : https://www.linkedin.com/pulse/supervised-variational-autoencoder-code-included-ibrahim-sobh-phd
+
 
 from keras.datasets import mnist
 from sklearn.metrics import classification_report, precision_score, recall_score, f1_score, confusion_matrix
